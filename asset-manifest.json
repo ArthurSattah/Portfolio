@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b48262c8.css",
+    "main.js": "/Portfolio/static/js/main.fcb47781.js",
+    "static/js/453.ed3810f9.chunk.js": "/Portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/ArthurSattah.jpg": "/Portfolio/static/media/ArthurSattah.02162e89e24bb9e1d103.jpg",
+    "static/media/heroImage.png": "/Portfolio/static/media/heroImage.8c7bc5fa279d4678be56.png",
+    "static/media/project.png": "/Portfolio/static/media/project.6b80dc22339b227d4ce7.png",
+    "static/media/aboutImage.png": "/Portfolio/static/media/aboutImage.99c678ba43ec61a6d1d8.png",
+    "static/media/man.png": "/Portfolio/static/media/man.7300dc5fd5487a35d300.png",
+    "static/media/calculator.png": "/Portfolio/static/media/calculator.c7741c8897e21e7d46d5.png",
+    "static/media/minesweeper.png": "/Portfolio/static/media/minesweeper.7917003229d94b0039f2.png",
+    "static/media/cpp.png": "/Portfolio/static/media/cpp.93ba055912b94fb81081.png",
+    "static/media/al-baath.jfif": "/Portfolio/static/media/al-baath.6ec0e3eef48fb4d064c4.jfif",
+    "static/media/tictactoe.png": "/Portfolio/static/media/tictactoe.5f1be7660a66231c1b0d.png",
+    "static/media/icpc.jfif": "/Portfolio/static/media/icpc.d89af02729a8c54dfe66.jfif",
+    "index.html": "/Portfolio/index.html",
+    "main.b48262c8.css.map": "/Portfolio/static/css/main.b48262c8.css.map",
+    "main.fcb47781.js.map": "/Portfolio/static/js/main.fcb47781.js.map",
+    "453.ed3810f9.chunk.js.map": "/Portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b48262c8.css",
+    "static/js/main.fcb47781.js"
+  ]
+}
