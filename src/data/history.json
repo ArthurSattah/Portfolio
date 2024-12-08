@@ -1,0 +1,18 @@
+[
+    {
+        "role" : "Problem Solver",
+        "organization" : "ICPC",
+        "startDate" : "Jan, 2020",
+        "endDate" : "Aug, 2024",
+        "experiences" : ["Participated at the Africa and Arab Collegiate Programming Championship (ACPC)","Master on Codeforces"],
+        "ImageSrc" : "history/icpc.jfif"
+    },
+    {
+        "role" : "Frontend Developer",
+        "organization" : "Al-Baath University",
+        "startDate" : "Feb, 2023",
+        "endDate" : "Nov, 2023",
+        "experiences" : ["Graduation Project","Responsive website using React.Js"],
+        "ImageSrc" : "history/al-baath.jfif"
+    }
+]

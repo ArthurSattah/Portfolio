@@ -1,0 +1,56 @@
+@import '../../vars.css';
+
+.containerCon{
+    margin-top: 150px;
+    width: 100%;
+    background-color: rgba(2, 4, 95, 0.61);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 70px;
+    
+}
+
+.leftTitleCon{
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color-text);
+}
+
+.leftDescCon{
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--color-text);
+}
+
+.rightCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.itemCon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rightdescCon{
+    font-weight: 350;
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+@media screen and (max-width : 830px) {
+    .containerCon{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .leftCon{
+        text-align: center;
+    }
+    .rightCon{
+        align-items: center;
+        gap: 20px;
+    }
+    
+}

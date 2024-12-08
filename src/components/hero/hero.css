@@ -1,0 +1,101 @@
+@import '../../vars.css';
+
+.containerHero{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.leftHero{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.leftHeroTitle{
+    color: var(--color-text);
+    font-weight: 700;
+    font-size: 50px;
+    background: linear-gradient(90deg , rgba(255, 255, 255,1)0% ,  rgba(255, 255, 255, 0.3)100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.leftHeroDesc{
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.contact{
+    margin-top: 20px; 
+}
+.contact a{
+    background-color: rgba(23, 24, 112, 0.61);
+    border-radius: 100px;
+    text-align: center;
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.25);
+}
+
+.rightHero{
+    width: 70%;
+    text-align: center;
+    z-index: 1;
+}
+.rightHero img{
+    width: 90%;
+    border-radius: 300px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes floating{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,20px);
+    }
+    0%{
+        transform: translate(0,0);
+    }
+}
+.topHero{
+    position: absolute;
+    width: 70vh;
+    height: 70vh;
+    background-color: rgba(10, 30, 90, 0.4);
+    transform: translate(0px,-50px);
+    border-radius: 300px;
+    filter: blur(50px);
+    z-index: 0;
+}
+.downHero{
+    position: absolute;
+    width: 70vh;
+    height: 70vh;
+    background-color: rgba(10, 30, 90, 0.4);
+    transform: translate(500px,300px);
+    border-radius: 300px;
+    filter: blur(50px);
+    z-index: 0;
+}
+
+@media screen and (max-width:830px) {
+    .containerHero{
+        flex-direction: column-reverse;
+    }
+    .leftHero{
+        align-items: center;
+        text-align: center;
+    }
+}

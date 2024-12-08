@@ -1,0 +1,27 @@
+[
+   
+    {
+        "title" : "Mine Sweeper",
+        "imageSrc" : "projects/minesweeper.png",
+        "description" : "I made this web game to test my ability to handle a lot of dynamic variables",
+        "skills" : ["React Js","Html","Css","Java Script"],
+        "demo" : "https://arthursattah.github.io/Minesweeper/",
+        "source" : "https://github.com/ArthurSattah/Minesweeper"
+    },
+    {
+        "title" : "Tic Tac Toe",
+        "imageSrc" : "projects/tictactoe.png",
+        "description" : "This is my first web game to learn some principles of ReactJs",
+        "skills" : ["React Js","Html","Css","Java Script"],
+        "demo" : "https://arthursattah.github.io/my-first-app/",
+        "source" : "https://github.com/ArthurSattah/my-first-app"
+    },
+    {
+        "title" : "Calculator",
+        "imageSrc" : "projects/calculator.png",
+        "description" : "I made this calculator to practice using ReactJs",
+        "skills" : ["React Js","Html","Css","Java Script"],
+        "demo" : "https://arthursattah.github.io/Calculator/",
+        "source" : "https://github.com/ArthurSattah/Calculator"
+    }
+]

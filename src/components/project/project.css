@@ -1,0 +1,134 @@
+@import './project.css';
+
+.containerPro{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 70px;
+}
+
+.titlePro{
+    color: var(--color-text);
+    font-weight: 700;
+    font-size: 50px;
+}
+.contentPro{
+    margin-top: 70px;
+    width: 100%;
+    background-color: rgb(16, 17, 129);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.leftPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(103, 156, 187, 1);
+    border-radius: 20px;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px ;
+
+}
+.leftProImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px ;
+}
+.selected{
+    background-color: rgb(16, 17, 129);
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px ;
+}
+.rightPro{
+    width: 100%;
+    padding: 30px 30px;
+    border-radius: 40px;
+    align-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    animation: fade-in 0.5s ease-in;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0;  }
+    100% { opacity: 1;  }
+}
+.notSelected{
+    display: none;
+}
+.cardImg{
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+}
+.cardTalk{
+    max-width: 400px;
+    align-content: center;
+}
+.cardTitle{
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 40px;
+}
+.cardDesc{
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.cardSkills{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.cardSkill{
+    color: var(--color-text);
+    background-color: rgb(102, 133, 151);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cardLinks{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 40px;
+
+}
+.cardItem{
+    color: var(--color-text);
+    background-color: rgba(26, 95, 136, 1);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+@media screen and (max-width : 830px) {
+    .cardImg{
+        display: none;
+    }
+    .contentPro{
+        gap: 10px;
+    }
+    .cardLinks{
+        gap: 5px;
+    }
+}
