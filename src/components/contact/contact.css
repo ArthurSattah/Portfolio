@@ -4,7 +4,7 @@
     margin-top: 150px;
     width: 100%;
     background-color: rgba(2, 4, 95, 0.61);
-    padding: 30px;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -53,4 +53,20 @@
         gap: 20px;
     }
     
+}
+@media screen and (max-width:400px) {
+    .leftTitleCon{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .leftDescCon{
+        font-weight: 450;
+        font-size: 25px;
+    }
+    .rightdescCon{
+        font-size: 20px;
+    }
+    .itemCon{
+        gap: 5px;
+    }
 }

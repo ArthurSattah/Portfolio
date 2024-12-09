@@ -31,13 +31,13 @@
 
 }
 .leftProImg{
-    width: 150px;
-    height: 150px;
+    width: 90%;
     border-radius: 20px;
-    padding: 20px;
+    padding: 5%;
     cursor: pointer;
     border-top-right-radius:0px ;
     border-bottom-right-radius:0px ;
+    max-width: 200px;
 }
 .selected{
     background-color: rgb(16, 17, 129);
@@ -45,10 +45,11 @@
     border-bottom-right-radius:0px ;
 }
 .rightPro{
-    width: 100%;
-    padding: 30px 30px;
+    width: 70%;
+    padding: 30px 1px;
     border-radius: 40px;
     align-content: center;
+    text-align: center;
 }
 .card{
     display: flex;
@@ -67,9 +68,9 @@
     display: none;
 }
 .cardImg{
-    width: 350px;
-    height: 400px;
+    width: 80%;
     border-radius: 30px;
+    max-width: 400px;
 }
 .cardTalk{
     max-width: 400px;
@@ -92,7 +93,7 @@
     flex-direction: row;
     margin-left: 20px;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
 }
 .cardSkill{
     color: var(--color-text);
@@ -108,6 +109,8 @@
     flex-direction: row;
     margin-top: 30px;
     gap: 40px;
+    text-align: center;
+    margin: 10px;
 
 }
 .cardItem{
@@ -118,17 +121,28 @@
     font-weight: 400;
     font-size: 20px;
     text-decoration: none;
-    margin-left: 20px;
 }
 
 @media screen and (max-width : 830px) {
-    .cardImg{
-        display: none;
-    }
     .contentPro{
         gap: 10px;
     }
     .cardLinks{
         gap: 5px;
+    }
+}
+@media screen and (max-width:400px) {
+    .titlePro{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .cardTitle{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .cardDesc{
+        font-weight: 400;
+        font-size: 20px;
+        
     }
 }

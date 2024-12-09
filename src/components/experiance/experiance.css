@@ -55,14 +55,14 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    padding: 30px;
+    padding: 10px;
     border-radius: 30px;
+    gap: 10px;
     background : linear-gradient(90deg,rgba(4, 2, 143, 0.61)0%,rgba(4, 2, 143, 0.1)100%);
 }
 .expItem img{
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     border-radius: 100px;
 }
 .hisRole{
@@ -83,5 +83,19 @@
 @media screen and (max-width: 830px) {
     .contentExp{
         flex-direction: column;
+    }
+}
+@media screen and (max-width:400px) {
+    .titleExp{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .hisRole{
+        font-weight: 400;
+        font-style: 25px;
+    }
+    .experianceItem{
+        font-weight: 350;
+        font-size: 23px;
     }
 }

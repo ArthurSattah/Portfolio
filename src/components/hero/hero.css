@@ -71,20 +71,20 @@
 }
 .topHero{
     position: absolute;
-    width: 70vh;
-    height: 70vh;
+    width: 40%;
+    height: 40%;
     background-color: rgba(10, 30, 90, 0.4);
-    transform: translate(0px,-50px);
+    transform: translate(0px,-20%);
     border-radius: 300px;
     filter: blur(50px);
     z-index: 0;
 }
 .downHero{
     position: absolute;
-    width: 70vh;
-    height: 70vh;
+    width: 40%;
+    height: 40%;
     background-color: rgba(10, 30, 90, 0.4);
-    transform: translate(500px,300px);
+    transform: translate(60%,70%);
     border-radius: 300px;
     filter: blur(50px);
     z-index: 0;
@@ -97,5 +97,16 @@
     .leftHero{
         align-items: center;
         text-align: center;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .leftHeroTitle{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .leftHeroDesc{
+        font-weight: 400;
+        font-size: 20px;
     }
 }
