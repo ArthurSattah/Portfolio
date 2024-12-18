@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="containerHero">
         <div className="leftHero">
             <p className="leftHeroTitle">
-                Hello , I'm Arthur
+                Hello , I'm Eng.Arthur
             </p>
             <p className="leftHeroDesc">
                 I am a software engineer with a lot of skills, Reach out 

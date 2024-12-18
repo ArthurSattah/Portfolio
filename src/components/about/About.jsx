@@ -3,9 +3,9 @@ import './about.css'
 const About = () => {
   return (
     <section className="containerAbout" id="about">
-      <h1 className="titleAbout">
+      <div className="titleAbout">
         About
-      </h1>
+      </div>
       <div className="contentAbout">
         <div className="leftAbout">
           <img src={require("../../assets/about/man.png")} alt="Hacker-image" />
