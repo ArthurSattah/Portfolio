@@ -3,7 +3,7 @@
 .containerPro{
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .titlePro{
@@ -14,7 +14,8 @@
 .contentPro{
     margin-top: 70px;
     width: 100%;
-    background-color: rgb(16, 17, 129);
+    background-color: rgb(27, 29, 104);
+    
     border-radius: 20px;
     display: flex;
     flex-direction: row;
@@ -40,7 +41,7 @@
     max-width: 200px;
 }
 .selected{
-    background-color: rgb(16, 17, 129);
+    background-color: rgb(27, 29, 104);
     border-top-right-radius:0px ;
     border-bottom-right-radius:0px ;
 }
@@ -82,6 +83,7 @@
     font-size: 40px;
 }
 .cardDesc{
+    text-align: left;
     color: var(--color-text);
     font-weight: 500;
     font-size: 25px;

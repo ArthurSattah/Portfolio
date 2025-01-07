@@ -3,10 +3,10 @@
     {
         "title" : "Mine Sweeper",
         "imageSrc" : "projects/minesweeper.png",
-        "description" : "I made this web game to test my ability to handle a lot of dynamic variables",
-        "skills" : ["React Js","Html","Css","Java Script"],
-        "demo" : "https://arthursattah.github.io/Minesweeper/",
-        "source" : "https://github.com/ArthurSattah/Minesweeper"
+        "description" : "I made this web game using redux and react router",
+        "skills" : ["React Js","Html","Css","Java Script","redux","react-router-dom"],
+        "demo" : "https://arthursattah.github.io/Minesweeper-pro/",
+        "source" : "https://github.com/ArthurSattah/Minesweeper-pro/"
     },
     {
         "title" : "Tic Tac Toe",

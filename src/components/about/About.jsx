@@ -1,6 +1,7 @@
-import React from 'react'
+import React ,{ useState } from 'react'
 import './about.css'
 const About = () => {
+  const [select,setSelect]=useState("exp");
   return (
     <section className="containerAbout" id="about">
       <div className="titleAbout">
@@ -10,7 +11,35 @@ const About = () => {
         <div className="leftAbout">
           <img src={require("../../assets/about/man.png")} alt="Hacker-image" />
         </div>
-        <ul className="itemsAbout">
+        <div className="rightAbout">
+          <div className="topRightAbout">
+            <div className={`selectAbout ${select==="exp" ? "goodSelect" : "bruh"}`} onClick={()=>setSelect("exp")}>
+              Experiance
+            </div>
+            <div className={`selectAbout ${select==="edu" ? "goodSelect" : "bruh"}`} onClick={()=>setSelect("edu")}>
+              Education
+            </div>
+          </div>
+          <div className="bottomRightAbout">
+          {
+            select==="exp" ?
+              <div>
+                I have two years of experience in frontend development using React Js and I've created a lot of responsive web pages.
+                <br/>
+                I mastered data structures, algorithms and problem solving and I also have 5 years of experience using C++ and have taught it in bootcamps.
+              </div>
+                            :
+              <div>
+                I have a software engineering degree from Al-Baath University in Homs, Syria, with a very good grade .
+                <br/>
+                I also received a certificate of thanks and appreciation from the university presidency as a result of my excellence in local and regional programming competitions.
+              </div>
+          }
+          </div>
+        </div>
+
+
+        {/* <ul className="itemsAbout">
           <li className='itemAbout'>
             <img src={require("../../assets/about/cursorIcon.png")} alt="cursorIcon" />
             <div className="descriptionItemAbout">
@@ -48,7 +77,7 @@ const About = () => {
               </div>
             </div>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   )

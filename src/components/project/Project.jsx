@@ -35,10 +35,10 @@ const Project = () => {
                                             })}
                                         </div>
                                         <div className='cardLinks'>
-                                            <a href={project.demo} className="cardItem">
+                                            <a href={project.demo} className="cardItem" target="_blank">
                                                 Try It
                                             </a>
-                                            <a href={project.source} className="cardItem">
+                                            <a href={project.source} className="cardItem" target="_blank">
                                                 Source Code
                                             </a>
 
