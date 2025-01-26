@@ -17,11 +17,11 @@
         "source" : "https://github.com/ArthurSattah/my-first-app"
     },
     {
-        "title" : "Calculator",
-        "imageSrc" : "projects/calculator.png",
-        "description" : "I made this calculator to practice using ReactJs",
-        "skills" : ["React Js","Html","Css","Java Script"],
+        "title" : "Travel Advisor",
+        "imageSrc" : "projects/travelAdvisor.png",
+        "description" : "Since I don't have any payment method, I used the free api so I you can't try it, So sorry",
+        "skills" : ["React Js","Html","Css","Java Script","API","Google Map"],
         "demo" : "https://arthursattah.github.io/Calculator/",
-        "source" : "https://github.com/ArthurSattah/Calculator"
+        "source" : "https://github.com/ArthurSattah/travel-advisor"
     }
 ]
