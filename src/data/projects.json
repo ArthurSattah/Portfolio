@@ -9,12 +9,12 @@
         "source" : "https://github.com/ArthurSattah/Minesweeper-pro/"
     },
     {
-        "title" : "Tic Tac Toe",
-        "imageSrc" : "projects/tictactoe.png",
+        "title" : "Ultimate Tic Tac Toe",
+        "imageSrc" : "projects/tic-tac-toe.png",
         "description" : "This is my first web game to learn some principles of ReactJs",
-        "skills" : ["React Js","Html","Css","Java Script"],
-        "demo" : "https://arthursattah.github.io/my-first-app/",
-        "source" : "https://github.com/ArthurSattah/my-first-app"
+        "skills" : ["React Js","Html","Css","Java Script","redux"],
+        "demo" : "https://arthursattah.github.io/UltimateTTT/",
+        "source" : "https://github.com/ArthurSattah/UltimateTTT"
     },
     {
         "title" : "Travel Advisor",
