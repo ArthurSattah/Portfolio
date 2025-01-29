@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9a4facc5.css",
-    "main.js": "/Portfolio/static/js/main.b35512bc.js",
+    "main.css": "/Portfolio/static/css/main.48594b93.css",
+    "main.js": "/Portfolio/static/js/main.5f4ed51d.js",
     "static/js/453.ed3810f9.chunk.js": "/Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/travelAdvisor.png": "/Portfolio/static/media/travelAdvisor.4115c7b47eef6ed60e07.png",
     "static/media/ArthurSattah.jpg": "/Portfolio/static/media/ArthurSattah.02162e89e24bb9e1d103.jpg",
@@ -10,18 +10,18 @@
     "static/media/aboutImage.png": "/Portfolio/static/media/aboutImage.99c678ba43ec61a6d1d8.png",
     "static/media/man.png": "/Portfolio/static/media/man.7300dc5fd5487a35d300.png",
     "static/media/calculator.png": "/Portfolio/static/media/calculator.c7741c8897e21e7d46d5.png",
+    "static/media/tic-tac-toe.png": "/Portfolio/static/media/tic-tac-toe.6099305f678429235f6f.png",
     "static/media/cpp.png": "/Portfolio/static/media/cpp.93ba055912b94fb81081.png",
     "static/media/minesweeper.png": "/Portfolio/static/media/minesweeper.eba7d18e6af04a8719e5.png",
     "static/media/al-baath.jfif": "/Portfolio/static/media/al-baath.6ec0e3eef48fb4d064c4.jfif",
-    "static/media/tictactoe.png": "/Portfolio/static/media/tictactoe.5f1be7660a66231c1b0d.png",
     "static/media/icpc.jfif": "/Portfolio/static/media/icpc.d89af02729a8c54dfe66.jfif",
     "index.html": "/Portfolio/index.html",
-    "main.9a4facc5.css.map": "/Portfolio/static/css/main.9a4facc5.css.map",
-    "main.b35512bc.js.map": "/Portfolio/static/js/main.b35512bc.js.map",
+    "main.48594b93.css.map": "/Portfolio/static/css/main.48594b93.css.map",
+    "main.5f4ed51d.js.map": "/Portfolio/static/js/main.5f4ed51d.js.map",
     "453.ed3810f9.chunk.js.map": "/Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a4facc5.css",
-    "static/js/main.b35512bc.js"
+    "static/css/main.48594b93.css",
+    "static/js/main.5f4ed51d.js"
   ]
 }
