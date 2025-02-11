@@ -8,14 +8,19 @@
     padding-top: 20px;
     justify-content: space-between;
     margin: 0 5%;
+    animation: appear_from_top linear;
+    animation-duration: 1s;
 }
-.title{
+
+
+.title {
     color: var(--color-text);
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: none;
 }
-.items{
+
+.items {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -30,37 +35,42 @@
     padding: 3px 15px;
     border-radius: 100px;
 }
-.imgIcon{
+
+.imgIcon {
     display: none;
     cursor: pointer;
 }
 
-.item a:hover{
+.item a:hover {
     background-color: rgba(196, 183, 212, 0.5);
 }
 
 @media screen and (max-width:830px) {
-    .container{
+    .container {
         flex-direction: column;
     }
-    .title{
+
+    .title {
         align-self: flex-start;
     }
-    .imgIcon{
+
+    .imgIcon {
         display: block;
         justify-self: flex-end;
 
     }
-    .menus{
+
+    .menus {
         position: absolute;
         align-self: flex-end;
         z-index: 2;
     }
-    .items{
+
+    .items {
         display: flex;
         flex-direction: column;
         border-radius: 10px;
-        background: linear-gradient(rgba(6, 50, 170, 0.9)0% , rgba(114, 142, 192, 0.5)100% );
+        background: linear-gradient(rgba(6, 50, 170, 0.9)0%, rgba(114, 142, 192, 0.5)100%);
         align-items: center;
         justify-content: space-around;
         height: 200px;
@@ -69,26 +79,42 @@
         text-align: center;
         margin-right: 30px;
     }
-    .item{
+
+    .item {
         margin-right: 25%;
     }
-    .item a{
+
+    .item a {
         border-radius: 100px;
         padding: 3px 15px;
         background-color: rgba(157, 88, 248, 0.5);
     }
-    .close{
+
+    .close {
         display: none;
     }
 }
 
 @media screen and (max-width:400px) {
-    .title{
+    .title {
         font-weight: 600;
         font-size: 30px;
     }
-    .item a{
+
+    .item a {
         font-weight: 400;
         font-size: 20px;
+    }
+}
+
+@keyframes appear_from_top {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
     }
 }

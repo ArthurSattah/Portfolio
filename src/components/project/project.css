@@ -1,59 +1,72 @@
 @import './project.css';
 
-.containerPro{
+.containerPro {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 90px;
 }
 
-.titlePro{
+.titlePro {
     color: var(--color-text);
     font-weight: 700;
     font-size: 50px;
+    animation: appear_from_left linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
-.contentPro{
+
+.contentPro {
     margin-top: 70px;
     width: 100%;
     background-color: rgb(27, 29, 104);
-    
     border-radius: 20px;
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 40px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
-.leftPro{
+
+.leftPro {
+    align-items: end;
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     background-color: rgba(103, 156, 187, 1);
     border-radius: 20px;
-    border-top-right-radius:0px ;
-    border-bottom-right-radius:0px ;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 
 }
-.leftProImg{
+
+.leftProImg {
     width: 90%;
     border-radius: 20px;
     padding: 5%;
     cursor: pointer;
-    border-top-right-radius:0px ;
-    border-bottom-right-radius:0px ;
-    max-width: 200px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    max-width: 230px;
     min-height: 150px;
 }
-.selected{
+
+.selected {
     background-color: rgb(27, 29, 104);
-    border-top-right-radius:0px ;
-    border-bottom-right-radius:0px ;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
-.rightPro{
+
+.rightPro {
     width: 70%;
-    padding: 30px 1px;
+    padding: 30px 5px 30px 0px;
     border-radius: 40px;
     align-content: center;
     text-align: center;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,35 +75,36 @@
     animation: fade-in 0.5s ease-in;
 }
 
-@keyframes fade-in {
-    0% { opacity: 0;  }
-    100% { opacity: 1;  }
-}
-.notSelected{
+.notSelected {
     display: none;
 }
-.cardImg{
+
+.cardImg {
     width: 80%;
     border-radius: 30px;
     max-width: 400px;
 }
-.cardTalk{
+
+.cardTalk {
     max-width: 400px;
     align-content: center;
 }
-.cardTitle{
+
+.cardTitle {
     color: var(--color-text);
     font-weight: 600;
     font-size: 40px;
 }
-.cardDesc{
+
+.cardDesc {
     text-align: left;
     color: var(--color-text);
     font-weight: 500;
     font-size: 25px;
     margin-left: 10px;
 }
-.cardSkills{
+
+.cardSkills {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -98,7 +112,8 @@
     flex-wrap: wrap;
     gap: 10px;
 }
-.cardSkill{
+
+.cardSkill {
     color: var(--color-text);
     background-color: rgb(102, 133, 151);
     padding: 10px 15px;
@@ -107,7 +122,7 @@
     font-size: 20px;
 }
 
-.cardLinks{
+.cardLinks {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
@@ -116,7 +131,8 @@
     margin: 10px;
 
 }
-.cardItem{
+
+.cardItem {
     color: var(--color-text);
     background-color: rgba(26, 95, 136, 1);
     padding: 10px 15px;
@@ -127,25 +143,63 @@
 }
 
 @media screen and (max-width : 830px) {
-    .contentPro{
+    .contentPro {
         gap: 10px;
     }
-    .cardLinks{
+
+    .cardLinks {
         gap: 5px;
     }
 }
+
 @media screen and (max-width:400px) {
-    .titlePro{
+    .titlePro {
         font-weight: 600;
         font-size: 30px;
     }
-    .cardTitle{
+
+    .cardTitle {
         font-weight: 500;
         font-size: 25px;
     }
-    .cardDesc{
+
+    .cardDesc {
         font-weight: 400;
         font-size: 20px;
-        
+
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        translate: -20px 0;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes appear_from_left {
+    from {
+        opacity: 0;
+        translate: -100px 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }

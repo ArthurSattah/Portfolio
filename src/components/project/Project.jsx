@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import projects from '../../data/projects.json';
 import './project.css';
+import ImageComponent from '../imageComponent/ImageComponent'
 const Project = () => {
     const [number, setNumber] = useState(0);
     return (
@@ -12,16 +13,27 @@ const Project = () => {
                 <div className="leftPro">
                     {projects.map((project, id) => {
                         return (
-                            <img key={id} className={`${id === number ? "selected" : ""} leftProImg`}
-                                src={require(`../../assets/${project.imageSrc}`)} alt={project.title} onClick={() => { setNumber(id) }} />
+                            <div key={id} className={`${id === number ? "selected" : ""} leftProImg`} onClick={() => { setNumber(id) }}>
+                                <ImageComponent
+                                    alt={project.title}
+                                    src={require(`../../assets/${project.imageSrc}`)}
+                                    smallSrc={require(`../../assets/${project.imageSmallSrc}`)}
+                                />
+                            </div>
                         );
                     })}
                 </div>
                 <div className="rightPro">
                     {projects.map((project, id) => {
                         return (
-                            <div className={id === number ? "card" : "notSelected"} key="id">
-                                <img src={require(`../../assets/${project.imageSrc}`)} alt={project.title} className='cardImg' />
+                            <div className={` ${id === number ? "card" : "notSelected"} `} key={id}>
+                                <div className='cardImg'>
+                                    <ImageComponent
+                                        alt={project.title}
+                                        src={require(`../../assets/${project.imageSrc}`)}
+                                        smallSrc={require(`../../assets/${project.imageSmallSrc}`)}
+                                    />
+                                </div>
                                 <div className="cardTalk">
                                     <div className="cardTitle">{project.title}</div>
                                     <div className="cardDesc">{project.description}</div>

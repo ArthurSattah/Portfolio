@@ -3,6 +3,7 @@
     {
         "title" : "Mine Sweeper",
         "imageSrc" : "projects/minesweeper.png",
+        "imageSmallSrc" : "projects/minesweeper-small.png",
         "description" : "I made this web game using redux and react router",
         "skills" : ["React Js","Html","Css","Java Script","redux","react-router-dom"],
         "demo" : "https://arthursattah.github.io/Minesweeper-pro/",
@@ -11,6 +12,7 @@
     {
         "title" : "Ultimate Tic Tac Toe",
         "imageSrc" : "projects/tic-tac-toe.png",
+        "imageSmallSrc" : "projects/tic-tac-toe-small.png",
         "description" : "This is my first web game to learn some principles of ReactJs",
         "skills" : ["React Js","Html","Css","Java Script","redux"],
         "demo" : "https://arthursattah.github.io/UltimateTTT/",
@@ -19,6 +21,7 @@
     {
         "title" : "Travel Advisor",
         "imageSrc" : "projects/travelAdvisor.png",
+        "imageSmallSrc" : "projects/travelAdvisor-small.png",
         "description" : "Since I don't have any payment method, I used the free api so I am so soory you can't try it.",
         "skills" : ["React Js","Html","Css","Java Script","API","Google Map"],
         "demo" : "https://arthursattah.github.io/Calculator/",

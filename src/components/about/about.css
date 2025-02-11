@@ -1,78 +1,159 @@
 @import '../../vars.css';
 
-.containerAbout{
+.containerAbout {
     position: relative;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 90px;
 }
-.titleAbout{
+
+.titleAbout {
     font-weight: 700;
     font-size: 50px;
     color: var(--color-text);
+    animation: appear_from_left linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
-.contentAbout{
+
+.contentAbout {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.leftAbout{
+
+.leftAbout {
     margin-left: 30px;
     margin: auto 0;
+    animation: appear_from_left linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
-.rightAbout{
+
+.leftAboutImage {
+    width: 200px;
+    height: 200px;
+}
+
+.rightAbout {
     width: 100%;
 }
-.topRightAbout{
+
+.topRightAbout {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    animation: appear_from_right linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
-.selectAbout{
+
+.selectAbout {
     color: var(--color-text);
     padding: 40px;
     border-radius: 20px;
-    background : rgba(4, 2, 143, 0.61);
+    background: rgba(4, 2, 143, 0.61);
     font-size: 30px;
     font-weight: 400;
     cursor: pointer;
     box-shadow: 0 0 5px rgb(19, 34, 85);
 }
-.goodSelect{
+
+.goodSelect {
     box-shadow: 0 0 30px rgb(19, 34, 85);
-    background : rgba(46, 43, 245, 0.753);
+    background: rgba(46, 43, 245, 0.753);
     border: solid 2px rgb(56, 38, 214);
 }
 
-.bottomRightAbout{
+.bottomRightAbout {
+    padding: 20px;
     color: var(--color-text);
     margin-top: 40px;
     margin-left: 20px;
     width: 90%;
     font-size: 25px;
+    background-image: linear-gradient(90deg,
+            rgba(165, 172, 232, 0.42)0%,
+            rgba(255, 255, 255, 0)100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    transition: 0.4s;
+    border-radius: 20px;
+
+    animation: appear_from_right linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+
 }
 
+.bruhBottom {
+    display: none;
+}
+
+.bottomRightAboutSelected {
+    animation: fade_in 0.5s linear;
+}
 
 @media screen and (max-width:830px) {
-    .contentAbout{
+    .contentAbout {
         flex-direction: column;
         align-items: center;
     }
-    .selectAbout{
+
+    .selectAbout {
         padding: 20px;
     }
 }
+
 @media screen and (max-width:400px) {
-    .selectAbout{
+    .selectAbout {
         padding: 10px;
         font-size: 25px;
         font-weight: 400;
 
     }
-    .titleAbout{
+
+    .titleAbout {
         font-weight: 600;
         font-size: 30px;
+    }
+}
+
+@keyframes fade_in {
+    0% {
+        translate: 0 -20px;
+        opacity: 0;
+    }
+
+    100% {
+        translate: 0 0;
+        opacity: 1;
+    }
+}
+
+@keyframes appear_from_left {
+    from {
+        opacity: 0;
+        translate: -100px 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes appear_from_right {
+    from {
+        opacity: 0;
+        translate: 100px 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
     }
 }
