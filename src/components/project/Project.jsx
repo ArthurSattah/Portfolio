@@ -47,12 +47,11 @@ const Project = () => {
                                         })}
                                     </div>
                                     <div className='cardLinks'>
-                                        {
-                                            project.title === "Travel Advisor" ? <></> :
-                                                <a href={project.demo} className="cardItem" target="_blank">
-                                                    Try It
-                                                </a>
-                                        }
+
+                                        <a href={project.demo} className="cardItem" target="_blank">
+                                            Try It
+                                        </a>
+
 
                                         <a href={project.source} className="cardItem" target="_blank">
                                             Source Code

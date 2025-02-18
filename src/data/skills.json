@@ -1,22 +1,30 @@
 [
     {
-        "title" : "HTML",
-        "ImageSrc" : "skills/html.png"
+        "title": "Figma",
+        "ImageSrc": "skills/figma.png"
     },
     {
-        "title" : "CSS",
-        "ImageSrc" : "skills/css.png"
+        "title": "HTML",
+        "ImageSrc": "skills/html.png"
     },
     {
-        "title" : "Figma",
-        "ImageSrc" : "skills/figma.png"
+        "title": "CSS",
+        "ImageSrc": "skills/css.png"
     },
     {
-        "title" : "React",
-        "ImageSrc" : "skills/react.png"
+        "title": "TypeScript",
+        "ImageSrc": "skills/typescript.png"
     },
     {
-        "title" : "C++",
-        "ImageSrc" : "skills/cpp.png"
+        "title": "React",
+        "ImageSrc": "skills/react.png"
+    },
+    {
+        "title": "GitHub",
+        "ImageSrc": "skills/github.png"
+    },
+    {
+        "title": "C++",
+        "ImageSrc": "skills/cpp.png"
     }
 ]

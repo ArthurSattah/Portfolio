@@ -22,9 +22,9 @@
         "title" : "Travel Advisor",
         "imageSrc" : "projects/travelAdvisor.png",
         "imageSmallSrc" : "projects/travelAdvisor-small.png",
-        "description" : "Since I don't have any payment method, I used the free api so I am so soory you can't try it.",
+        "description" : "Since I don't have any payment method, I used the free api and I have reached the available limit while developing the website so I am sorry you can't try it.",
         "skills" : ["React Js","Html","Css","Java Script","API","Google Map"],
-        "demo" : "https://arthursattah.github.io/Calculator/",
+        "demo" : "https://arthursattah.github.io/travel-advisor/",
         "source" : "https://github.com/ArthurSattah/travel-advisor"
     }
 ]
