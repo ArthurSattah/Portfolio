@@ -10,6 +10,15 @@
         "source" : "https://github.com/ArthurSattah/Minesweeper-pro/"
     },
     {
+        "title" : "Travel Advisor",
+        "imageSrc" : "projects/travelAdvisor.png",
+        "imageSmallSrc" : "projects/travelAdvisor-small.png",
+        "description" : "Since I don't have any payment method, so the search does not work sorry",
+        "skills" : ["React Js","Html","Css","Java Script","API","Google Map","Vite"],
+        "demo" : "https://arthursattah.github.io/travel-advisor-vite/",
+        "source" : "https://github.com/ArthurSattah/travel-advisor-vite"
+    },
+    {
         "title" : "Ultimate Tic Tac Toe",
         "imageSrc" : "projects/tic-tac-toe.png",
         "imageSmallSrc" : "projects/tic-tac-toe-small.png",
@@ -17,14 +26,5 @@
         "skills" : ["React Js","Html","Css","Java Script","redux"],
         "demo" : "https://arthursattah.github.io/UltimateTTT/",
         "source" : "https://github.com/ArthurSattah/UltimateTTT"
-    },
-    {
-        "title" : "Travel Advisor",
-        "imageSrc" : "projects/travelAdvisor.png",
-        "imageSmallSrc" : "projects/travelAdvisor-small.png",
-        "description" : "Since I don't have any payment method, I used the free api and I have reached the available limit while developing the website so I am sorry you can't try it.",
-        "skills" : ["React Js","Html","Css","Java Script","API","Google Map"],
-        "demo" : "https://arthursattah.github.io/travel-advisor/",
-        "source" : "https://github.com/ArthurSattah/travel-advisor"
     }
 ]
