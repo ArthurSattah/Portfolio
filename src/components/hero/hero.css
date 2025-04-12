@@ -1,6 +1,7 @@
 @import '../../vars.css';
 
 .containerHero {
+    position: relative;
     margin-top: 70px;
     display: flex;
     flex-direction: row;
@@ -15,8 +16,6 @@
     display: flex;
     flex-direction: column;
     z-index: 1;
-    animation: appear_from_left_scale linear;
-    animation-duration: 1s;
 }
 
 .leftHeroTitle {
@@ -72,23 +71,8 @@
     width: 70%;
     text-align: center;
     z-index: 1;
-    animation: appear_from_right_scale linear;
-    animation-duration: 1s;
 }
 
-@keyframes appear_from_right_scale {
-    from {
-        opacity: 0;
-        scale: 0.5;
-        translate: 100px 0;
-    }
-
-    to {
-        opacity: 1;
-        scale: 1;
-        translate: 0 0;
-    }
-}
 
 .rightHeroImage {
     margin: 0 auto;
@@ -157,19 +141,5 @@
 
     0% {
         transform: translate(0, 0);
-    }
-}
-
-@keyframes appear_from_left_scale {
-    from {
-        opacity: 0;
-        scale: 0.5;
-        translate: -100px 0;
-    }
-
-    to {
-        opacity: 1;
-        scale: 1;
-        translate: 0 0;
     }
 }

@@ -12,7 +12,7 @@
         "organization" : "Al-Baath University",
         "startDate" : "Feb, 2023",
         "endDate" : "Nov, 2023",
-        "experiences" : ["Graduation Project","Responsive website using React.Js"],
+        "experiences" : ["Graduation Project","Responsive website using React.Js","Use the Google Maps API to create maps to display locations in Syria."],
         "ImageSrc" : "history/al-baath.jfif"
     }
 ]

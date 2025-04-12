@@ -21,10 +21,11 @@
 }
 
 .items {
+    width: 100%;
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .item a {

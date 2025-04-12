@@ -5,15 +5,13 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 90px;
+    overflow-x: hidden;
 }
 
 .titleAbout {
     font-weight: 700;
     font-size: 50px;
     color: var(--color-text);
-    animation: appear_from_left linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 20%;
 }
 
 .contentAbout {
@@ -26,9 +24,6 @@
 .leftAbout {
     margin-left: 30px;
     margin: auto 0;
-    animation: appear_from_left linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 20%;
 }
 
 .leftAboutImage {
@@ -45,9 +40,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    animation: appear_from_right linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 20%;
 }
 
 .selectAbout {
@@ -82,10 +74,6 @@
 
     transition: 0.4s;
     border-radius: 20px;
-
-    animation: appear_from_right linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 20%;
 
 }
 
@@ -131,29 +119,5 @@
     100% {
         translate: 0 0;
         opacity: 1;
-    }
-}
-
-@keyframes appear_from_left {
-    from {
-        opacity: 0;
-        translate: -100px 0;
-    }
-
-    to {
-        opacity: 1;
-        translate: 0 0;
-    }
-}
-
-@keyframes appear_from_right {
-    from {
-        opacity: 0;
-        translate: 100px 0;
-    }
-
-    to {
-        opacity: 1;
-        translate: 0 0;
     }
 }
