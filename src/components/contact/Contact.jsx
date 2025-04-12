@@ -3,17 +3,11 @@ import './contact.css';
 import AnimationFromLeft from '../framerMotion/animationFromLeft/AnimationFromLeft';
 import AnimationFromRight from '../framerMotion/animationFromRight/AnimationFromRight';
 
-const Contact = ({ innerRef, otherRef }) => {
+const Contact = () => {
 
-    const combinedRef = useCallback((node) => {
-        otherRef(node);
-        if (innerRef) innerRef.current = node;
-    },
-        [otherRef, innerRef]
-    );
 
     return (
-        <footer className="containerCon" id="contact" ref={combinedRef}>
+        <footer className="containerCon" id="contact" >
             <div className="leftCon">
                 <AnimationFromLeft>
                     <h1 className='leftTitleCon'>

@@ -17,18 +17,28 @@ function App() {
     threshold: 0.1,
   })
 
-  const contactRef = useRef();
 
   useEffect(() => {
     const hash = window.location.hash;
 
-    if (hash === '#contact' && contactRef.current) {
-      // Delay the scroll a bit so lazy components finish loading
-      setTimeout(() => {
-        contactRef.current.scrollIntoView({ behavior: 'smooth' });
-      }, 100); // Adjust the timeout as needed
+    if ((hash === '#contact' || hash === '#projects')) {
+      const element = document.querySelector(hash); 
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   }, [projectLoaded]);
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
+
   return (
     <div className="app" >
       <MouseShadow />
@@ -44,7 +54,7 @@ function App() {
           :
           <div style={{ height: "10px" }}></div>}
       </div>
-      <Contact innerRef={contactRef} otherRef={ref} />
+      <Contact />
     </div>
   );
 }
