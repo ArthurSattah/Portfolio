@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e1ccd0dc.css",
-    "main.js": "/Portfolio/static/js/main.bb415114.js",
+    "main.css": "/Portfolio/static/css/main.40a2fd6f.css",
+    "main.js": "/Portfolio/static/js/main.a1d08aac.js",
     "static/css/973.a64e080d.chunk.css": "/Portfolio/static/css/973.a64e080d.chunk.css",
     "static/js/973.ee83e982.chunk.js": "/Portfolio/static/js/973.ee83e982.chunk.js",
     "static/media/travelAdvisor.png": "/Portfolio/static/media/travelAdvisor.4115c7b47eef6ed60e07.png",
@@ -12,13 +12,13 @@
     "static/media/al-baath.jfif": "/Portfolio/static/media/al-baath.6ec0e3eef48fb4d064c4.jfif",
     "static/media/icpc.jfif": "/Portfolio/static/media/icpc.d89af02729a8c54dfe66.jfif",
     "index.html": "/Portfolio/index.html",
-    "main.e1ccd0dc.css.map": "/Portfolio/static/css/main.e1ccd0dc.css.map",
-    "main.bb415114.js.map": "/Portfolio/static/js/main.bb415114.js.map",
+    "main.40a2fd6f.css.map": "/Portfolio/static/css/main.40a2fd6f.css.map",
+    "main.a1d08aac.js.map": "/Portfolio/static/js/main.a1d08aac.js.map",
     "973.a64e080d.chunk.css.map": "/Portfolio/static/css/973.a64e080d.chunk.css.map",
     "973.ee83e982.chunk.js.map": "/Portfolio/static/js/973.ee83e982.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1ccd0dc.css",
-    "static/js/main.bb415114.js"
+    "static/css/main.40a2fd6f.css",
+    "static/js/main.a1d08aac.js"
   ]
 }
