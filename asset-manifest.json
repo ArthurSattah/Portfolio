@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.40a2fd6f.css",
-    "main.js": "/Portfolio/static/js/main.a1d08aac.js",
+    "main.css": "/Portfolio/static/css/main.ed8dfdbf.css",
+    "main.js": "/Portfolio/static/js/main.5e63270f.js",
     "static/css/973.a64e080d.chunk.css": "/Portfolio/static/css/973.a64e080d.chunk.css",
-    "static/js/973.ee83e982.chunk.js": "/Portfolio/static/js/973.ee83e982.chunk.js",
+    "static/js/973.6f8596fb.chunk.js": "/Portfolio/static/js/973.6f8596fb.chunk.js",
     "static/media/travelAdvisor.png": "/Portfolio/static/media/travelAdvisor.4115c7b47eef6ed60e07.png",
     "static/media/ArthurSattah.jpg": "/Portfolio/static/media/ArthurSattah.02162e89e24bb9e1d103.jpg",
     "static/media/man.png": "/Portfolio/static/media/man.7300dc5fd5487a35d300.png",
@@ -12,13 +12,13 @@
     "static/media/al-baath.jfif": "/Portfolio/static/media/al-baath.6ec0e3eef48fb4d064c4.jfif",
     "static/media/icpc.jfif": "/Portfolio/static/media/icpc.d89af02729a8c54dfe66.jfif",
     "index.html": "/Portfolio/index.html",
-    "main.40a2fd6f.css.map": "/Portfolio/static/css/main.40a2fd6f.css.map",
-    "main.a1d08aac.js.map": "/Portfolio/static/js/main.a1d08aac.js.map",
+    "main.ed8dfdbf.css.map": "/Portfolio/static/css/main.ed8dfdbf.css.map",
+    "main.5e63270f.js.map": "/Portfolio/static/js/main.5e63270f.js.map",
     "973.a64e080d.chunk.css.map": "/Portfolio/static/css/973.a64e080d.chunk.css.map",
-    "973.ee83e982.chunk.js.map": "/Portfolio/static/js/973.ee83e982.chunk.js.map"
+    "973.6f8596fb.chunk.js.map": "/Portfolio/static/js/973.6f8596fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a2fd6f.css",
-    "static/js/main.a1d08aac.js"
+    "static/css/main.ed8dfdbf.css",
+    "static/js/main.5e63270f.js"
   ]
 }
