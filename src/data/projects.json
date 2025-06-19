@@ -1,30 +1,50 @@
 [
-   
     {
-        "title" : "Mine Sweeper",
-        "imageSrc" : "projects/minesweeper.png",
-        "imageSmallSrc" : "projects/minesweeper-small.png",
-        "description" : "I made this web game using redux and react router",
-        "skills" : ["React Js","Html","Css","Java Script","redux","react-router-dom"],
-        "demo" : "https://arthursattah.github.io/Minesweeper-pro/",
-        "source" : "https://github.com/ArthurSattah/Minesweeper-pro/"
+        "title": "Mine Sweeper",
+        "imageSrc": "projects/minesweeper.png",
+        "imageSmallSrc": "projects/minesweeper-small.png",
+        "description": "Made to deepen my skills in algorithm design and React component reusability.",
+        "skills": [
+            "React Js",
+            "Html",
+            "Css",
+            "Java Script",
+            "redux",
+            "react-router-dom"
+        ],
+        "demo": "https://arthursattah.github.io/Minesweeper-pro/",
+        "source": "https://github.com/ArthurSattah/Minesweeper-pro/"
     },
     {
-        "title" : "Travel Advisor",
-        "imageSrc" : "projects/travelAdvisor.png",
-        "imageSmallSrc" : "projects/travelAdvisor-small.png",
-        "description" : "Since I don't have any payment method, so the search does not work sorry",
-        "skills" : ["React Js","Html","Css","Java Script","API","Google Map","Vite"],
-        "demo" : "https://arthursattah.github.io/travel-advisor-vite/",
-        "source" : "https://github.com/ArthurSattah/travel-advisor-vite"
+        "title": "Travel Advisor",
+        "imageSrc": "projects/travelAdvisor.png",
+        "imageSmallSrc": "projects/travelAdvisor-small.png",
+        "description": "Created to explore API integration and responsive UI design.",
+        "skills": [
+            "React Js",
+            "Html",
+            "Css",
+            "Java Script",
+            "API",
+            "Google Map",
+            "Vite"
+        ],
+        "demo": "https://arthursattah.github.io/travel-advisor-vite/",
+        "source": "https://github.com/ArthurSattah/travel-advisor-vite"
     },
     {
-        "title" : "Ultimate Tic Tac Toe",
-        "imageSrc" : "projects/tic-tac-toe.png",
-        "imageSmallSrc" : "projects/tic-tac-toe-small.png",
-        "description" : "This is my first web game to learn some principles of ReactJs",
-        "skills" : ["React Js","Html","Css","Java Script","redux"],
-        "demo" : "https://arthursattah.github.io/UltimateTTT/",
-        "source" : "https://github.com/ArthurSattah/UltimateTTT"
+        "title": "Ultimate Tic Tac Toe",
+        "imageSrc": "projects/tic-tac-toe.png",
+        "imageSmallSrc": "projects/tic-tac-toe-small.png",
+        "description": "Built to improve my understanding of React state management and game logic complexity.",
+        "skills": [
+            "React Js",
+            "Html",
+            "Css",
+            "Java Script",
+            "redux"
+        ],
+        "demo": "https://arthursattah.github.io/UltimateTTT/",
+        "source": "https://github.com/ArthurSattah/UltimateTTT"
     }
 ]

@@ -1,18 +1,26 @@
 [
     {
-        "role" : "Problem Solver",
-        "organization" : "ICPC",
-        "startDate" : "Jan, 2020",
-        "endDate" : "Aug, 2024",
-        "experiences" : ["Got my university cup","Master on Codeforces","Participated at the Africa and Arab Collegiate Programming Championship (ACPC)"],
-        "ImageSrc" : "history/icpc.jfif"
+        "role": "Problem Solver",
+        "organization": "ICPC",
+        "startDate": "Jan, 2020",
+        "endDate": "Aug, 2024",
+        "experiences": [
+            "Winner of the University Cup – ICPC Syria.",
+            "Master on Codeforces (3,000+ problems solved).",
+            "Represented Syria in the Africa & Arab Collegiate Programming Championship (ACPC)."
+        ],
+        "ImageSrc": "history/icpc.jfif"
     },
     {
-        "role" : "Frontend Developer",
-        "organization" : "Al-Baath University",
-        "startDate" : "Feb, 2023",
-        "endDate" : "Nov, 2023",
-        "experiences" : ["Graduation Project","Responsive website using React.Js","Use the Google Maps API to create maps to display locations in Syria."],
-        "ImageSrc" : "history/al-baath.jfif"
+        "role": "Frontend Developer",
+        "organization": "Al-Baath University",
+        "startDate": "Feb, 2023",
+        "endDate": "Nov, 2023",
+        "experiences": [
+            "Delivered as a team project for graduation evaluation.",
+            "Focused on clean UI and Responsive website using React.Js.",
+            "Integrated Google Maps API to display property locations in Syria."
+        ],
+        "ImageSrc": "history/al-baath.jfif"
     }
 ]
