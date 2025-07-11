@@ -23,13 +23,12 @@ const About = () => {
                 smallSrc={require("../../assets/about/man-small.png")} />
             </AnimationFromLeft>
           </div>
-          <img />
         </div>
         <div className="rightAbout">
           <AnimationFromRight>
             <div className="topRightAbout">
               <div className={`selectAbout ${select === "exp" ? "goodSelect" : "bruh"}`} onClick={() => setSelect("exp")}>
-                Experiance
+                Experience
               </div>
               <div className={`selectAbout ${select === "edu" ? "goodSelect" : "bruh"}`} onClick={() => setSelect("edu")}>
                 Education

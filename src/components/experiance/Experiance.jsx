@@ -10,7 +10,7 @@ const Experiance = () => {
         <section className="containerExp" id="experiance">
             <AnimationFromLeft>
                 <h1 className='titleExp'>
-                    Experiance
+                    Experience
                 </h1>
             </AnimationFromLeft>
             <div className="contentExp">

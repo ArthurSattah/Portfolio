@@ -25,7 +25,7 @@ const Navbar = () => {
                         </li>
                         <li className="item" onClick={() => setMenuOpen(false)}>
                             <a href="#experiance">
-                                Experiance
+                                Experience
                             </a>
                         </li>
                         <li className="item" onClick={() => setMenuOpen(false)}>

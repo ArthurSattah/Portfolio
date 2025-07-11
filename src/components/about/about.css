@@ -103,6 +103,9 @@
         font-weight: 400;
 
     }
+    .bottomRightAbout{
+        margin-left: 0;
+    }
 
     .titleAbout {
         font-weight: 600;
