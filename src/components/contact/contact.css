@@ -61,7 +61,7 @@
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .leftTitleCon {
         font-weight: 600;
         font-size: 30px;

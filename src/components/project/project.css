@@ -149,7 +149,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .titlePro {
         font-weight: 600;
         font-size: 30px;
@@ -163,7 +163,12 @@
     .cardDesc {
         font-weight: 400;
         font-size: 20px;
-
+    }
+    .cardSkill{
+        padding: 7px 10px;
+    }
+    .cardItem{
+        padding: 7px 10px;
     }
 }
 

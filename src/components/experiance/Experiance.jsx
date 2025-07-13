@@ -31,10 +31,15 @@ const Experiance = () => {
                         {histories.map((his, id) => {
                             return (
                                 <div key={id} className='expItem'>
-                                    <img src={require(`../../assets/${his.ImageSrc}`)} alt={his.role} />
                                     <div>
-                                        <div className="hisRole">{his.role},{his.organization}</div>
-                                        <div className="hisDate">{his.startDate}-{his.endDate}</div>
+                                        <div className='expTop'>
+                                            <img src={require(`../../assets/${his.ImageSrc}`)} alt={his.role} />
+                                            <div>
+                                                <div className="hisRole">{his.role}, {his.organization}</div>
+                                                <div className="hisDate">{his.startDate}-{his.endDate}</div>
+
+                                            </div>
+                                        </div>
                                         <ul>
                                             {his.experiences.map((exp, id) => {
                                                 return (
