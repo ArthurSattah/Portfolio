@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cbd74e43.css",
-    "main.js": "/Portfolio/static/js/main.a1dcdc3a.js",
+    "main.js": "/Portfolio/static/js/main.8d20a8f3.js",
     "static/css/973.722deb72.chunk.css": "/Portfolio/static/css/973.722deb72.chunk.css",
-    "static/js/973.6f8596fb.chunk.js": "/Portfolio/static/js/973.6f8596fb.chunk.js",
+    "static/js/973.517aeae7.chunk.js": "/Portfolio/static/js/973.517aeae7.chunk.js",
     "static/media/travelAdvisor.png": "/Portfolio/static/media/travelAdvisor.4115c7b47eef6ed60e07.png",
     "static/media/ArthurSattah.jpg": "/Portfolio/static/media/ArthurSattah.02162e89e24bb9e1d103.jpg",
     "static/media/man.png": "/Portfolio/static/media/man.7300dc5fd5487a35d300.png",
+    "static/media/Post-App.png": "/Portfolio/static/media/Post-App.32c91ffb82adc0255c76.png",
     "static/media/tic-tac-toe.png": "/Portfolio/static/media/tic-tac-toe.6099305f678429235f6f.png",
     "static/media/minesweeper.png": "/Portfolio/static/media/minesweeper.eba7d18e6af04a8719e5.png",
     "static/media/al-baath.jfif": "/Portfolio/static/media/al-baath.6ec0e3eef48fb4d064c4.jfif",
     "static/media/icpc.jfif": "/Portfolio/static/media/icpc.d89af02729a8c54dfe66.jfif",
     "index.html": "/Portfolio/index.html",
     "main.cbd74e43.css.map": "/Portfolio/static/css/main.cbd74e43.css.map",
-    "main.a1dcdc3a.js.map": "/Portfolio/static/js/main.a1dcdc3a.js.map",
+    "main.8d20a8f3.js.map": "/Portfolio/static/js/main.8d20a8f3.js.map",
     "973.722deb72.chunk.css.map": "/Portfolio/static/css/973.722deb72.chunk.css.map",
-    "973.6f8596fb.chunk.js.map": "/Portfolio/static/js/973.6f8596fb.chunk.js.map"
+    "973.517aeae7.chunk.js.map": "/Portfolio/static/js/973.517aeae7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbd74e43.css",
-    "static/js/main.a1dcdc3a.js"
+    "static/js/main.8d20a8f3.js"
   ]
 }
