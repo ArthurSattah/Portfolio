@@ -46,5 +46,19 @@
         ],
         "demo": "https://arthursattah.github.io/UltimateTTT/",
         "source": "https://github.com/ArthurSattah/UltimateTTT"
+    },
+    {
+        "title": "Post App",
+        "imageSrc": "projects/Post-App.png",
+        "imageSmallSrc": "projects/Post-App-small.png",
+        "description": "A full-stack app for creating, editing, and managing posts with complete authentication and authorization",
+        "skills": [
+            "React Js",
+            "Laravel",
+            "REST API",
+            "SQlite",
+            "PHP"
+        ],
+        "source": "https://github.com/ArthurSattah/Post_App"
     }
 ]

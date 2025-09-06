@@ -1,4 +1,25 @@
 [
+    
+    {
+        "title": "C++",
+        "ImageSrc": "skills/cpp.png"
+    },
+    {
+        "title": "Laravel",
+        "ImageSrc": "skills/laravel.png"
+    },
+    {
+        "title": "React",
+        "ImageSrc": "skills/react.png"
+    },
+    {
+        "title": "TScript",
+        "ImageSrc": "skills/typescript.png"
+    },
+    {
+        "title": "GitHub",
+        "ImageSrc": "skills/github.png"
+    },
     {
         "title": "Figma",
         "ImageSrc": "skills/figma.png"
@@ -10,21 +31,5 @@
     {
         "title": "CSS",
         "ImageSrc": "skills/css.png"
-    },
-    {
-        "title": "TScript",
-        "ImageSrc": "skills/typescript.png"
-    },
-    {
-        "title": "React",
-        "ImageSrc": "skills/react.png"
-    },
-    {
-        "title": "GitHub",
-        "ImageSrc": "skills/github.png"
-    },
-    {
-        "title": "C++",
-        "ImageSrc": "skills/cpp.png"
     }
 ]

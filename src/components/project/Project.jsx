@@ -55,9 +55,10 @@ const Project = ({ onLoad }) => {
                                         </div>
                                         <div className='cardLinks'>
 
-                                            <a href={project.demo} className="cardItem" target="_blank">
+                                            { project.demo && <a href={project.demo} className="cardItem" target="_blank">
                                                 Try It
                                             </a>
+                                            }
 
 
                                             <a href={project.source} className="cardItem" target="_blank">
